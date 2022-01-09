@@ -31,9 +31,9 @@ formats of NeuroChem at :attr:`torchani.neurochem`, and more at :attr:`torchani.
 
 from .utils import EnergyShifter
 from .nn import ANIModel, Ensemble, SpeciesConverter
-from .aev import AEVComputer               # When use it, directly use this class name
+from .aev import AEVComputer               # Yinuo: can directly call class name
 from . import utils
-from . import neurochem                    # When use the fn in it, need to use neurochem.fn
+from . import neurochem                    # Yinuo: call neurochem.function_name
 from . import models
 from . import units
 from pkg_resources import get_distribution, DistributionNotFound
